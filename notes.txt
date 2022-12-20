@@ -1,0 +1,4 @@
+docker run -d -p 8000:8000 -v /home/iduadmin/PycharmProjects/duplicate-detector:/app duplicate_detector:latest
+
+
+works

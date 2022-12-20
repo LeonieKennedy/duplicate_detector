@@ -1,0 +1,6 @@
+model
+__pycache__
+venv
+clip
+ViT-B-32.pt
+

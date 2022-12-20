@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app:
+    image: 'duplicate_detector_persist2:latest'
+    ports:
+      - '8000:8000'
+    volumes:
+      - '/home/iduadmin/PycharmProjects/duplicate_detector_persist:/app'
+      - '/home/iduadmin/PycharmProjects/duplicate_detector_persist/hashes_and_tensors:/app/hashes_and_tensors'
