@@ -1,5 +1,5 @@
 # Duplicate Image Detector
-
+Detects if an image has previously been submitted.
 ---
 ## Files
 - model/
